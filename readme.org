@@ -1,0 +1,23 @@
+* Fzf-nerdfont-picker.vim
+
+  Welcome to another approach to make vim usable in eye-candy issues, this
+  plugin aims to be an offline
+  [[https://www.nerdfonts.com/cheat-sheet][Nerdfonts cheatsheet]] using 
+  [[https://github.com/junegunn/fzf.vim][fzf.vim]]
+  as a searching engine. PR's are welcome!
+
+* Dependencies
+
+  - A [[https://www.nerdfonts.com/#home][nerdfont]] as the font.
+  - [[https://github.com/junegunn/fzf.vim][fzf.vim]].
+
+* Command
+
+  Currently, is not associated to any keybind in vim, but you can easily use
+  the command =NerdFontsFzF= To call the function, it automatically sets the
+  plugin.
+
+* TODO
+
+  - Better documentation
+  - Still in insert mode when it's called from there.
